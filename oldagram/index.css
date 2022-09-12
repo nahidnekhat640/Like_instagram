@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h3, p {
+    margin: 0;
+}
+
+h3, span {
+    font-weight: bold
+}
+
+h3, .comment, .likes-count {
+    font-size: 13px;
+}
+
+.location {
+    font-size: 12px;
+}
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+}
+
+
+.header-layout {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5px;
+    border-bottom: 1px solid #b1aeae
+}
+
+.logo {
+    width: 130px;
+}
+
+.user-layout {
+    display:flex;
+    padding: 10px 5px;
+    margin-top: 1px;
+}
+
+.user-layout div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+}
+
+.post-img {
+    width: 100%
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;  
+    margin: 0;
+    padding: 10px;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+.friends {
+    width: 20px;
+    height: 20px;  
+    margin: 0;
+    padding: 0px;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+.user-layout .avatar {
+    margin-right: 10px;
+}
+
+.btns-container {
+    display: flex;
+    justify-content: start;
+}
+
+.interact-btn {
+    width: 23px;
+    margin: 5px;
+}
+
+.likes-count {
+    text-align: left;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.comment {
+    text-align: left;
+    margin: 5px 0px 5px 5px;
+}
